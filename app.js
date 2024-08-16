@@ -3,10 +3,10 @@ const mensaje = document.querySelector(".mensaje");
 
 
 function btnEncriptar(){
-//    const textoEncriptado = encriptar(textArea.value)
-//    mensaje.value = textoEncriptado
+    const textoEncriptado = encriptar(textArea.value)
+    mensaje.value = textoEncriptado
     textArea.value = ""
-//    mensaje.style.backgroundImage="none"
+    mensaje.style.backgroundImage="none"
 }
 
 function encriptar(stringEncriptada){
@@ -23,7 +23,7 @@ function encriptar(stringEncriptada){
 
 
 function btnDesencriptar(){
-    const textoEncriptado = encriptar(textArea.value)
+    const textoEncriptado = desencriptar(textArea.value)
     mensaje.value = textoEncriptado
     textArea.value = ""
 }
@@ -34,8 +34,9 @@ function desencriptar(stringDesencriptada){
 
     for(let i = 0; i < matrizCodigo.length; i++){
         if(stringDesencriptada.includes(matrizCodigo[i][1])){
-            stringDesencriptada = stringDesencriptada.replaceAll(matrizCodigo[i][1],matrizCodigo[i][0])
+            stringDesencriptada = stringDesencriptada.replaceAll(matrizCodigo[i][1], matrizCodigo[i][0])
         }
     }
     return stringDesencriptada
 }
+
