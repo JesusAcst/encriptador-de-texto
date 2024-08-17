@@ -7,10 +7,23 @@
     overflow-y: hidden;
 }
 
+.header{
+    display: flex;
+    align-items: center;
+
+}
+
 .logo{
     padding-top: 10px;
     margin-left: 7px;
     width: 10%;
+}
+
+.titulo{
+    padding-top: 10px;
+    margin-left: 7;
+    color:orangered;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 main{
