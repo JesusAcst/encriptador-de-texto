@@ -40,3 +40,8 @@ function desencriptar(stringDesencriptada){
     return stringDesencriptada
 }
 
+function copiar(){
+    let textoCopiado = document.getElementById("mensaje")
+    navigator.clipboard.writeText(textoCopiado.value)
+    mensaje.value = ""
+}
