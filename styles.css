@@ -23,7 +23,7 @@
     padding-top: 10px;
     margin-left: 7;
     color:orangered;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:Inter;
 }
 
 main{
@@ -39,6 +39,7 @@ main{
     margin-top: 20px;
     padding: 2px;
     text-transform: lowercase;
+    font-size: 25px;
 }
 ::placeholder{color: #0A3871;}
   .text-area:focus{
