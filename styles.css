@@ -39,7 +39,7 @@ main{
     margin-top: 20px;
     padding: 2px;
     text-transform: lowercase;
-    font-size: 25px;
+    font-size: 27px;
 }
 ::placeholder{color: #0A3871;}
   .text-area:focus{
@@ -47,19 +47,19 @@ main{
   }
 
 .mensaje{
-    height: 550px;
+    height: 531px;
     background:white;
     background-image: url("/assets/Muñeco.png");
     background-repeat: no-repeat;
     border: none;
-    border-radius: 24px;
+    border-radius: 20px;
     color:#0A3871;
-    margin-left:80px;
+    margin-left:90px;
     margin-top:20px;
     padding-left: 45px;
     position: fixed;
     padding: 5px;
-    font-size: 26px;    
+    font-size: 28px;    
 }
 
 .mensaje:focus{
@@ -101,7 +101,7 @@ main{
     margin-left: 108px;
     margin-top: 482px;
     position: absolute;
-    width: 310px;
+    width: 280px;
 }
 
 .informacion{
